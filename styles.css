@@ -1,12 +1,13 @@
 /* Apply a background color and set the text color for the entire page */
 body {
+  text-align: center;
   background-color: #f5f5f5; 
   color: #333;
   font-family: Arial, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  text-align: center;
+  
 }
 
 /* Style the header section */
