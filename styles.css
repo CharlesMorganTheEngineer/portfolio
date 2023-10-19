@@ -58,7 +58,7 @@ a:hover {
 
 /* Style images within content */
 div {
+text-align: center;
 text-height: 200px;
 text-width: 200px;
-text-align: center;
 }
