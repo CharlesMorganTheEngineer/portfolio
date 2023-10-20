@@ -66,10 +66,10 @@ div {
   height: 200px;
   text-width: 200px;
 }
-/* Center the image within the image container */
+/* Style images within content */
 .image-container img {
-  display: block; 
-  margin: 0 auto; 
-  max-width: 100%; 
-  height: auto; 
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
