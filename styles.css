@@ -47,18 +47,12 @@ section ol {
 section:last-child {
   margin-bottom: 0;
 }
-
+a { color: blue; }
 /* Style links within content */
-a {
-  color: #ffaa00;
-  text-decoration: none;
-}
-
+a:link { color: #ffaa00; }
+a:visited { color: red; }
 /* Style links on hover with a different color */
-a:hover {
-  color: #e65f00;
-  text-decoration: underline;
-}
+a:hover { color: #e65f00; }
 
 /* Style images within content */
 div {
