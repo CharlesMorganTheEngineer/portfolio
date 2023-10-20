@@ -47,13 +47,26 @@ section ol {
 section:last-child {
   margin-bottom: 0;
 }
-a { color: blue; }
 /* Style links within content */
-a:link { color: #ffaa00; }
-a:visited { color: red; }
-/* Style links on hover with a different color */
-a:hover { color: #e65f00; }
+a:link {
+  color: #007acc; /* Unvisited link color */
+  text-decoration: none;
+}
 
+a:visited {
+  color: #333; /* Visited link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e65f00; /* Link color on hover */
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ffaa00; /* Link color when clicked */
+  text-decoration: underline;
+}
 /* Style images within content */
 div {
   text-align: center;
